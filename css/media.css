@@ -1,0 +1,305 @@
+/* Широкоформатный экран — 1200px */
+
+/* Десктоп — 992px */
+
+/* Планшеты — 768px */
+
+/* Телефоны —  544px */
+@media (max-width : 1330px) {
+	.owl-prev, .owl-next{
+		top: 390px;
+	}
+}
+@media (max-width : 1200px) {
+	/*HEADER*/
+	.top-row{
+		/*padding-right: 15px;
+		padding-left: 15px;*/
+	}
+	.wrapper{
+		box-sizing: border-box;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.header-wrap{
+		padding: 20px 0;
+	}
+	.owl-prev, .owl-next{
+		width: 50px;
+		height: 50px;
+		top: 380px;
+	}
+	.owl-prev{
+		left: 5px;
+	}
+	.owl-next{
+		right: 5px;
+	}
+	.owl-prev i, .owl-next i{
+		font-size: 25px;
+	}
+	.owl-carousel__item{
+		padding-top: 140px;
+	}
+/*//HEADER*/
+/*CONTENT*/
+	.title{
+		padding-left: 15px;
+	}
+	.content__products{
+		width: 750px;
+	}
+/*//CONTENT*/
+/*CALLUSROW*/
+.call-us-row{
+	/*padding-right: 15px;
+	padding-left: 15px;*/
+}
+.call-us-row__item{
+	width: 50%;
+}
+.call-us-row__item:last-child{
+	width: 47%;
+}
+.call-us-row__text:last-child{
+	margin-right: 0;
+}
+/*//CALLUSROW*/
+/*CONTACTS*/
+.contacts__item:last-child{
+	width: 225px;
+}
+/*//CONTACTS*/
+}
+
+@media (max-width : 1016px) {
+/*CONTENT*/
+	.content-wrap{
+		justify-content: space-around;
+	}
+	.sidebar{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.sidebar__wrap{
+		width: 100%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.sidebar__actions{
+		width: 236px;
+	}
+	.sidebar__dots-wrap{
+		display: none;
+	}
+/*//CONTENT*/
+}
+
+@media (max-width : 992px) {
+
+/*CALLUSROW*/
+.call-us-row__item{
+	justify-content: space-around;
+}
+.call-us-row__circle{
+	margin-bottom: 10px;
+}
+.call-us-row__text{
+	margin-left: 0;
+	margin-right: 0;
+	min-height: 56px;
+}
+/*//CALLUSROW*/
+/*CONTACTS*/
+.contacts__item{
+	width: 36%;
+}
+.contacts__items-wrap{
+	justify-content: space-around;
+}
+.contacts__item-from-twitter__item{
+	justify-content: flex-start;
+}
+.contacts__item-from-twitter__icon{
+	margin-right: 20px;
+}
+.contacts__item:last-child{
+	width: auto;
+}
+/*//CONTACTS*/
+/*FOOTER*/
+.footer{
+	font-size: 12px;
+}
+/*//FOOTER*/
+}
+
+@media (max-width : 768px) {
+	/*HEADER*/
+	.top-row__account{
+		display: none;
+	}
+	.header__nav{
+		display: none;
+	}
+	.header__logo{
+		width: 100%;
+		margin-right: 0;
+	}
+	.container{
+		display: inline-block;
+	}
+	.owl-carousel__item{
+		padding-top: 30px;
+	}
+	.owl-carousel__text{
+		margin-left: 14px;
+	}
+	.owl-prev, .owl-next{
+		top: 230px;
+	}
+	/*//HEADER*/
+	/*CONTENT*/
+	.sidebar{
+		display: none;
+	}
+	/*//CONTENT*/
+	/*CALLUSROW*/
+	.call-us-row__text-link{
+		display: block;
+	}
+	/*//CALLUSROW*/
+	/*CONTACTS*/
+	.contacts__item, .contacts__item:first-child{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.contacts__item-from-twitter{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;
+	}
+	.contacts__item--info{
+		width: auto;
+	}
+	.footer__wrap{
+		flex-direction: column-reverse;
+	}
+	.footer__copyright{
+		margin-top: 20px;
+	}
+	.footer__nav{
+		margin: 0 auto;
+	}
+	/*//CONTACTS*/
+}
+@media (max-width : 554px) {
+	/*HEADER*/
+	.container{
+		top: 77px;
+	}
+	.header__logo, .search-form__input {
+		margin-bottom: 14px;
+	}
+	.header-wrap{
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
+	.owl-carousel__text{
+		font-size: 22px;
+	}
+	.owl-stage-outer{
+		height: 400px;
+	}
+	/*//HEADER*/
+	/*CONTENT*/
+	.content{
+		margin-top: 20px;
+	}
+	.content__products-item-wrap{
+		justify-content: space-around;
+	}
+	/*//CONTENT*/
+	/*CALLUSROW*/
+	.call-us-row__item, .call-us-row__item:last-child{
+		width: 100%;
+		justify-content: flex-start;
+	}
+	.call-us-row__text, .call-us-row__text:last-child{
+		font-size: 20px;
+		width: 200px;
+	}
+	.call-us-row__circle{
+		margin-right: 20px;
+	}
+	/*//CALLUSROW*/
+	.contacts__item-from-twitter{
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+.contacts__item-from-twitter__item{
+	width: 255px;
+	justify-content: space-around;
+}
+.contacts__item--info, .contacts__item:last-child{
+	width: 100%;
+}
+
+/*FOOTER*/
+	.footer__nav-link{
+		display: block;
+	}
+	.footer__nav-link:after{
+		content: "";
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.footer__nav{
+		margin: 0;
+	}
+/*//FOOTER*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
